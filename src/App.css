@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.contenedor {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 520px;
+  margin: 20px auto;
+  padding: 0 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contenedor input[type="text"],
+.contenedor input[type="email"],
+.contenedor select {
+  margin-left: 8px;
+  padding: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contenedor fieldset {
+  margin: 10px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contenedor fieldset label {
+  margin-right: 12px;
+}
+
+.contenedor input[type="submit"] {
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+.contenedor .botones {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.contenedor input[type="range"] {
+  margin-left: 8px;
+  vertical-align: middle;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contenedor input[type="image"] {
+  cursor: pointer;
 }
